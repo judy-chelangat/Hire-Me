@@ -59,3 +59,18 @@ font-weight: 900;
 font-size: 40px;
 line-height: 50px;
 }
+/* about section styling  */
+.about-section{
+  height:70vh
+}
+.about-section h1{
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+  width: 40%;
+}
+.about-section p{
+  width: 35%;
+  font-weight: bold;
+  line-height: 30px;
+}
