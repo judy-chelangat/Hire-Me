@@ -5,9 +5,57 @@
     --bs-body-bg:#fbf9f6;
     --bs-body-font-family:'Ubuntu'
 }
+
 /* header styling */
 .header-section{
     z-index:2;
-    background-color: #0a1118;
+    background-color: hsl(0, 0%, 0%);
 }
+/* video-section */
+.video{
+  position: relative;
+  height: 130vh;
+  overflow: hidden;
+  background-color: #000000;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.video-section{
+  position: absolute;
+  top:100%;
+  left:50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
 
+}
+.video-text {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  width: 25%;
+  font-family: 'Ubuntu';
+  line-height: 40px;
+}
+.video-h1{
+  position: absolute;
+  top: 75%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  width: 35%;
+  font-family: 'Ubuntu';
+}
+.video h1 ,h1{
+font-weight: 900;
+font-size: 40px;
+line-height: 50px;
+}
