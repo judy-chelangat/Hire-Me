@@ -97,6 +97,122 @@ line-height: 50px;
   background-color: #000000;
   font-family: 'Ubuntu';
 }
+/* making the page responsive */
+@media (max-width: 767px) {
+  /* Responsive styles for small devices */
+  .video-text {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-size: 18px;
+  }
+  .video-h1 {
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 24px;
+    width: 80%;
+  }
+  .about-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .about-section h1,
+  .about-section p {
+    width: 90%;
+    text-align: center;
+  }
+  .team {
+    height: auto;
+  }
+  .team img {
+    border-radius: 0;
+  }
+  .footer-section .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Responsive styles for medium devices */
+  .video-text {
+    width: 70%;
+    font-size: 22px;
+  }
+  .video-h1 {
+    top: 65%;
+    font-size: 28px;
+    width: 70%;
+  }
+  .about-section h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .about-section p {
+    width: 45%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Responsive styles for large devices */
+  .video-text {
+    width: 50%;
+    font-size: 24px;
+  }
+  .video-h1 {
+    top: 60%;
+    font-size: 32px;
+    width: 60%;
+  }
+  .about-section h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .about-section p {
+    width: 40%;
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-section h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .about-section p {
+    width: 35%;
+    font-size: 22px;
+    line-height: 34px;
+  }
+}
+
+/* Additional Footer Styling */
+.footer-section h5 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.25rem;
+}
+
+.footer-section .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-section .social-icons a {
+  margin-right: 0.5rem;
+}
 
 
