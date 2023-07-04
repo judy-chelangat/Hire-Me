@@ -1,0 +1,13 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Montserrat:wght@300;400;500&family=Ubuntu:ital,wght@0,400;1,400;1,500&display=swap');
+:root {
+    --primary-color :#0a1118;
+    --primary-color-highlight:#233d54;
+    --bs-body-bg:#fbf9f6;
+    --bs-body-font-family:'Ubuntu'
+}
+/* header styling */
+.header-section{
+    z-index:2;
+    background-color: #0a1118;
+}
+
