@@ -5,7 +5,9 @@
     --bs-body-bg:#fbf9f6;
     --bs-body-font-family:'Ubuntu'
 }
-
+a{
+  text-decoration: none;
+}
 /* header styling */
 .header-section{
     z-index:2;
