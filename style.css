@@ -5,8 +5,18 @@
     --bs-body-bg:#fbf9f6;
     --bs-body-font-family:'Ubuntu'
 }
-a{
+.apply-link{
   text-decoration: none;
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #337ab7;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.apply-link:hover {
+  background-color: #23527c;
 }
 /* header styling */
 .header-section{
