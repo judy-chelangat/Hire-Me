@@ -10,9 +10,12 @@ a{
 }
 /* header styling */
 .header-section{
-    z-index:2;
     background-color: hsl(0, 0%, 0%);
+    position: sticky;
+    z-index: 2;
+    width: 100%;
 }
+
 /* video-section */
 .video{
   position: relative;
