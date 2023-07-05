@@ -21,7 +21,7 @@ function jobDetails(){
           const searchTerm = roleInput.value.toLowerCase().trim();
 
           // Filter the job list based on the search term
-          const filteredJobs = jobList.filter(job => {
+          const filteredJobs = data.filter(job => {
             const position = job.position.toLowerCase();
             return position.includes(searchTerm);
           });
@@ -61,7 +61,13 @@ function jobDetails(){
           `
           mainContainer.appendChild(details)
     }
+    
 }
+ // Function to clear the existing job list on the DOM
+ function clearJobList() {
+    const mainContainer = document.getElementById("jobList");
+    mainContainer.innerHTML = "";
+  }
 jobDetails()
 }
 
