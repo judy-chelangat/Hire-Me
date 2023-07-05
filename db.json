@@ -12,7 +12,7 @@
       "postedAt": "1d ago",
       "contract": "Full Time",
       "location": "USA Only",
-      "languages": ["HTML", "CSS", "JavaScript"],
+      "languages": [ "JavaScript" , "React"],
       "tools": []
     },
     {
@@ -153,7 +153,7 @@
     {
       "id": 11,
       "company": "TechCompany",
-      "logo": "./images/tech-company.svg",
+      "logo": "./images/photosnap.svg",
       "new": true,
       "featured": true,
       "position": "Junior Software Engineer",
@@ -168,7 +168,7 @@
     {
       "id": 12,
       "company": "WebDev",
-      "logo": "./images/web-dev.svg",
+      "logo": "./images/account.svg",
       "new": false,
       "featured": true,
       "position": "Frontend Developer",
@@ -183,7 +183,7 @@
     {
       "id": 13,
       "company": "InternTech",
-      "logo": "./images/intern-tech.svg",
+      "logo": "./images/loop-studios.svg",
       "new": true,
       "featured": false,
       "position": "Software Development Intern",
@@ -198,7 +198,7 @@
     {
       "id": 14,
       "company": "GlobalSoft",
-      "logo": "./images/global-soft.svg",
+      "logo": "./images/myhome.svg",
       "new": true,
       "featured": false,
       "position": "Software Engineer Intern",
@@ -213,7 +213,7 @@
     {
       "id": 15,
       "company": "CodeCraft",
-      "logo": "./images/code-craft.svg",
+      "logo": "./images/loop-studios.svg",
       "new": false,
       "featured": false,
       "position": "Full Stack Developer Intern",
@@ -228,7 +228,7 @@
     {
       "id": 16,
       "company": "SoftCo",
-      "logo": "./images/soft-co.svg",
+      "logo": "./images/faceit.svg",
       "new": false,
       "featured": false,
       "position": "Junior Backend Developer",
@@ -243,7 +243,7 @@
     {
       "id": 17,
       "company": "AppWorks",
-      "logo": "./images/app-works.svg",
+      "logo": "./images/shortly.svg",
       "new": false,
       "featured": false,
       "position": "Software Developer",
@@ -258,7 +258,7 @@
     {
       "id": 18,
       "company": "DataTech",
-      "logo": "./images/data-tech.svg",
+      "logo": "./images/insure.svg",
       "new": false,
       "featured": true,
       "position": "Data Engineer",
@@ -273,7 +273,7 @@
     {
       "id": 19,
       "company": "TechSupport",
-      "logo": "./images/tech-support.svg",
+      "logo": "./images/eyecam-co.svg",
       "new": false,
       "featured": false,
       "position": "IT Support Specialist",
@@ -288,7 +288,7 @@
     {
       "id": 20,
       "company": "CyberSecurity",
-      "logo": "./images/cyber-security.svg",
+      "logo": "./images/the-air-filter-company.svg",
       "new": false,
       "featured": false,
       "position": "Security Analyst",
