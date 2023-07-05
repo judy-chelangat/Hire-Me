@@ -1,3 +1,19 @@
+/* link tag styling */
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #337ab7;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #23527c;
+}
+/* styling the fetched items  */
+
 .job-details {
     display: flex;
     align-items: center;
