@@ -22,7 +22,7 @@ function jobDetails(){
           <div class="left-side">
                 <div class="img"><img src="${list.logo}"></div>
 
-                <div>
+                <div >
                     <h6>${list.position}</h6>
                     <p>${list.postedAt}</p>
                     <p>${list.contract}</p>
@@ -30,11 +30,9 @@ function jobDetails(){
                 </div>
           </div>
           
-          <div class="right-side "
-             <p>${list.languages}</p>
-          </div>
-          
-          
+          <div class="right-side">
+            <p>${list.languages}</p>
+        </div>
           `
           mainContainer.appendChild(details)
     }
