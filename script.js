@@ -20,7 +20,8 @@ function jobDetails(){
 // dom manipulation to show the job details
           details.innerHTML=`
           <div class="left-side">
-                <div class="img src ="${list.logo}"</div
+                <div class="img"><img src="${list.logo}"></div>
+
                 <div>
                     <h6>${list.position}</h6>
                     <p>${list.postedAt}</p>
