@@ -41,7 +41,7 @@ function jobDetails(){
         });
       })
          .catch(error =>{
-            console.log(error)
+            console.log("error")
          })
 
         function displayJobs(list){
@@ -87,7 +87,7 @@ jobDetails()
     }
       //adding an event listener to the form submission
     const jobForm =document.getElementById("jobPostForm")
-    jobForm.addEventListener(submit,handleForm)
+    jobForm.addEventListener("submit",handleForm)
 
     //function to handle the form submission
     function handleForm(e){
@@ -99,11 +99,27 @@ jobDetails()
       const locationInput = document.getElementById("locationInput").value;
       
       //object with the retrieved details
-      const details ={
+      const job ={
         position:positionInput,
         languages:languagesInput,
         location:locationInput
       };
+
+      //sending a post request to update the json file
+      fetch("http://localhost:3000/jobs",{
+        method:"POST",
+        headers:{
+          "Content-Type":"Application/json"
+        },
+       body:JSON.stringify(job)
+      })
+      .then(resp =>resp.json())
+      .then(data =>{
+        console.log(data)
+      })
+      .catch(error=>{
+        console.log("error fetching data")
+      })
     }
 
 
