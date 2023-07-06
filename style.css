@@ -373,7 +373,20 @@ a:hover {
 }
 /* ----------------------------------------------------------------------------------------------------- */
 /* job posting styling  */
+#jobButton {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
 
+#jobButton:hover {
+  background-color: #23527c;
+  cursor: pointer;
+}
 .job-post-form {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
