@@ -90,7 +90,7 @@ jobDetails()
       const languagesInput = document.getElementById("languagesInput").value;
       const locationInput = document.getElementById("locationInput").value;
       const contract = document.getElementById("availabilityInput").value;
-      
+       
       //object with the retrieved details
       const jobsObj={
       company: "Photosnap",
@@ -107,6 +107,9 @@ jobDetails()
       tools:[]
       };
       postJob(jobsObj)
+      document.getElementById('jobForm').reset();
+
+      
     }
 
     //function to send a post request 
