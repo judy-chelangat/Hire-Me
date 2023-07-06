@@ -30,7 +30,7 @@
                     <a class="nav-link text-light " href="#contact">Contact Us </a>
                     </li>
                 <li class="nav-item">
-                  <a href="./jobposting.html" class="apply-link" >Post a job</a>
+                  <button class="apply-link" id="jobButton">Post a job</button>
                 </li>
             </ul>
         </div>
@@ -78,6 +78,31 @@
                         <button type="submit" class="search-button">Search</button>
                     </form>
             <div id="jobList" ></div>
+            </div>
+        </section>
+        <!-- post a job form -->
+        <section>
+            <div id="jobPostForm" class="job-post-form container-lg" style="display: none;">
+                <h2>Post A Job</h2>
+                <form action="" id="jobForm">
+                    <div class="mb-3">
+                        <label  class="form-label">Position</label>
+                        <input type="text" class="form-control" id="positionInput" required>
+                    </div>
+                    <div class="mb-3">
+                        <label  class="form-label">languages</label>
+                        <input type="text" class="form-control" id="languagesInput" required>
+                    </div>
+                    <div class="mb-3">
+                        <label  class="form-label">location</label>
+                        <input type="text" class="form-control" id="locationInput" required>
+                    </div>
+                    <div class="mb-3">
+                        <label  class="form-label">Availability</label>
+                        <input type="text" class="form-control" id="availabilityInput" required>
+                    </div>
+                    <button id ="submitJobButton"type="submit" class="btn btn-primary text-light bg-dark">SUBMIT</button>
+                </form>
             </div>
         </section>
         <!-- footer section -->
