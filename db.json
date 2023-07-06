@@ -12,7 +12,10 @@
       "postedAt": "1d ago",
       "contract": "Full Time",
       "location": "USA Only",
-      "languages": [ "JavaScript" , "React"],
+      "languages": [
+        "JavaScript",
+        "React"
+      ],
       "tools": []
     },
     {
@@ -27,8 +30,12 @@
       "postedAt": "1d ago",
       "contract": "Part Time",
       "location": "Remote",
-      "languages": ["Python"],
-      "tools": ["React"]
+      "languages": [
+        "Python"
+      ],
+      "tools": [
+        "React"
+      ]
     },
     {
       "id": 3,
@@ -42,8 +49,13 @@
       "postedAt": "2d ago",
       "contract": "Part Time",
       "location": "USA Only",
-      "languages": ["JavaScript"],
-      "tools": ["React", "Sass"]
+      "languages": [
+        "JavaScript"
+      ],
+      "tools": [
+        "React",
+        "Sass"
+      ]
     },
     {
       "id": 4,
@@ -57,7 +69,10 @@
       "postedAt": "5d ago",
       "contract": "Contract",
       "location": "USA Only",
-      "languages": ["CSS", "JavaScript"],
+      "languages": [
+        "CSS",
+        "JavaScript"
+      ],
       "tools": []
     },
     {
@@ -72,8 +87,13 @@
       "postedAt": "1w ago",
       "contract": "Full Time",
       "location": "Worldwide",
-      "languages": ["JavaScript"],
-      "tools": ["Ruby", "Sass"]
+      "languages": [
+        "JavaScript"
+      ],
+      "tools": [
+        "Ruby",
+        "Sass"
+      ]
     },
     {
       "id": 6,
@@ -87,8 +107,12 @@
       "postedAt": "2w ago",
       "contract": "Full Time",
       "location": "UK Only",
-      "languages": ["Ruby"],
-      "tools": ["RoR"]
+      "languages": [
+        "Ruby"
+      ],
+      "tools": [
+        "RoR"
+      ]
     },
     {
       "id": 7,
@@ -102,8 +126,13 @@
       "postedAt": "2w ago",
       "contract": "Full Time",
       "location": "Worldwide",
-      "languages": ["HTML", "JavaScript"],
-      "tools": ["Sass"]
+      "languages": [
+        "HTML",
+        "JavaScript"
+      ],
+      "tools": [
+        "Sass"
+      ]
     },
     {
       "id": 8,
@@ -117,8 +146,13 @@
       "postedAt": "2w ago",
       "contract": "Full Time",
       "location": "USA Only",
-      "languages": ["JavaScript"],
-      "tools": ["Vue", "Sass"]
+      "languages": [
+        "JavaScript"
+      ],
+      "tools": [
+        "Vue",
+        "Sass"
+      ]
     },
     {
       "id": 9,
@@ -132,8 +166,13 @@
       "postedAt": "3w ago",
       "contract": "Full Time",
       "location": "Worldwide",
-      "languages": ["JavaScript", "Python"],
-      "tools": ["Django"]
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "tools": [
+        "Django"
+      ]
     },
     {
       "id": 10,
@@ -147,8 +186,13 @@
       "postedAt": "1mo ago",
       "contract": "Part Time",
       "location": "Worldwide",
-      "languages": ["JavaScript"],
-      "tools": ["React", "Sass"]
+      "languages": [
+        "JavaScript"
+      ],
+      "tools": [
+        "React",
+        "Sass"
+      ]
     },
     {
       "id": 11,
@@ -162,8 +206,14 @@
       "postedAt": "2d ago",
       "contract": "Full Time",
       "location": "Remote",
-      "languages": ["JavaScript", "Python"],
-      "tools": ["React", "Django"]
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "tools": [
+        "React",
+        "Django"
+      ]
     },
     {
       "id": 12,
@@ -177,8 +227,14 @@
       "postedAt": "3d ago",
       "contract": "Full Time",
       "location": "Remote",
-      "languages": ["HTML", "CSS", "JavaScript"],
-      "tools": ["React"]
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "tools": [
+        "React"
+      ]
     },
     {
       "id": 13,
@@ -192,8 +248,14 @@
       "postedAt": "4d ago",
       "contract": "Internship",
       "location": "Worldwide",
-      "languages": ["JavaScript", "Python"],
-      "tools": ["React", "Node.js"]
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "tools": [
+        "React",
+        "Node.js"
+      ]
     },
     {
       "id": 14,
@@ -207,8 +269,13 @@
       "postedAt": "5d ago",
       "contract": "Internship",
       "location": "Worldwide",
-      "languages": ["Java", "C++"],
-      "tools": ["Spring"]
+      "languages": [
+        "Java",
+        "C++"
+      ],
+      "tools": [
+        "Spring"
+      ]
     },
     {
       "id": 15,
@@ -222,8 +289,14 @@
       "postedAt": "1w ago",
       "contract": "Internship",
       "location": "USA Only",
-      "languages": ["JavaScript", "Python"],
-      "tools": ["React", "Django"]
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "tools": [
+        "React",
+        "Django"
+      ]
     },
     {
       "id": 16,
@@ -237,8 +310,12 @@
       "postedAt": "2w ago",
       "contract": "Full Time",
       "location": "USA Only",
-      "languages": ["Java"],
-      "tools": ["Spring Boot"]
+      "languages": [
+        "Java"
+      ],
+      "tools": [
+        "Spring Boot"
+      ]
     },
     {
       "id": 17,
@@ -252,8 +329,14 @@
       "postedAt": "3w ago",
       "contract": "Full Time",
       "location": "UK Only",
-      "languages": ["JavaScript", "Ruby"],
-      "tools": ["React", "Ruby on Rails"]
+      "languages": [
+        "JavaScript",
+        "Ruby"
+      ],
+      "tools": [
+        "React",
+        "Ruby on Rails"
+      ]
     },
     {
       "id": 18,
@@ -267,8 +350,14 @@
       "postedAt": "1mo ago",
       "contract": "Full Time",
       "location": "Remote",
-      "languages": ["Python", "SQL"],
-      "tools": ["Apache Spark", "Kafka"]
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "tools": [
+        "Apache Spark",
+        "Kafka"
+      ]
     },
     {
       "id": 19,
