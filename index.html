@@ -14,14 +14,14 @@
     <!-- header section -->
     <header class="header-section p-3 position-absolute start-0 top-0 end-0 sticky-top">
         <div class="d-flex justify-content-between align-items-center">
-        <a href="/" class="text-decoration-none fs-5 fw-bold text-light ">Hire Me</a>
+        <p  class="text-decoration-none fs-5 fw-bold text-light ">Hire Me</p>
         <div class="">
             <ul class="nav justify-content-end">
                 <li class="nav-item">
                 <a class="nav-link text-light " aria-current="page" href="#">Home </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link text-light " href="./jobs.html" target="_blank">Jobs</a>
+                <a class="nav-link text-light " href="#jobs">Jobs</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link text-light " href="#about">About Us </a>
@@ -30,7 +30,7 @@
                     <a class="nav-link text-light " href="#contact">Contact Us </a>
                     </li>
                 <li class="nav-item">
-                  <a href="./jobposting.html" class="apply-link"  >Post a job</a>
+                  <a href="./jobposting.html" class="apply-link" >Post a job</a>
                 </li>
             </ul>
         </div>
@@ -68,10 +68,20 @@
             
             <p class="me-5" >“Hire me “
                  connects Developers around the world a with ambitious US tech companies, knowing that software engineers want to develop world-class products while maximizing career growth”</p>
-            <a href="./jobs.html" target="_blank" class="apply-link"><i class="fa-solid fa-arrow-right-long"></i>Apply Now</a>
-        </div>
+         </div>
+        <!-- jobs section -->
+        <section id="jobs" class="mb-5">
+               <div class="container">
+                    <h1 class="text-center mt-5 mb-4">Available Jobs</h1>
+                    <form id="jobSearchForm" class="text-center mb-4">
+                        <input type="text" id="roleInput" placeholder="Enter job role">
+                        <button type="submit" class="search-button">Search</button>
+                    </form>
+            <div id="jobList" ></div>
+            </div>
+        </section>
         <!-- footer section -->
-        <footer id="contact" class="footer-section  text-light p-3">
+        <footer id="contact" class="footer-section mt-5  text-light p-3">
             <div class="container d-flex justify-content-between">
                 <div>
                     <h5>CopyRight@2023 HireMe.com</h5>
