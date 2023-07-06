@@ -13,13 +13,18 @@ function jobDetails(){
 
         //event listener on the form
         const jobSearchForm = document.getElementById("jobSearchForm");
-        jobSearchForm.addEventListener("submit", function (e) {
+        jobSearchForm.addEventListener("submit", function (e , job) {
           e.preventDefault();
 
           // Retrieve the search term entered by the user
           const roleInput = document.getElementById("roleInput");
           const searchTerm = roleInput.value.toLowerCase().trim();
 
+          //if statement to check whether the searchterm is empty
+          if(searchTerm === ""){
+            displayJobs(job)
+          }
+          
           // Filter the job list based on the search term
           const filteredJobs = data.filter(job => {
             const position = job.position.toLowerCase();
@@ -71,7 +76,7 @@ function jobDetails(){
 jobDetails()
 }
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 
 
