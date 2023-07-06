@@ -106,12 +106,16 @@ jobDetails()
       languages:languagesInput,
       tools: []
       };
+      postJob(jobsObj)
+    }
 
-      //sending a post request to update the json file
+    //function to send a post request 
+      function postJob(jobsObj)
+      {
       fetch("http://localhost:3000/jobs",{
         method:"POST",
         headers:{
-          "Content-Type":"Application/json"
+          "Content-Type":"application/json"
         },
        body:JSON.stringify(jobsObj)
       })
@@ -122,8 +126,7 @@ jobDetails()
       .catch(error=>{
         console.log("error posting data")
       })
-    }
-
+      }
 
 
 
