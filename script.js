@@ -78,7 +78,7 @@ function jobDetails(){
 jobDetails()
 
     //   //adding an event listener to the form submission
-    const jobForm =document.getElementById("jobPostForm")
+    const jobForm =document.getElementById("jobForm")
     jobForm.addEventListener("submit",handleForm)
 
     //function to handle the form submission
@@ -89,12 +89,22 @@ jobDetails()
       const positionInput = document.getElementById("positionInput").value;
       const languagesInput = document.getElementById("languagesInput").value;
       const locationInput = document.getElementById("locationInput").value;
+      const contract = document.getElementById("availabilityInput").value;
       
       //object with the retrieved details
-      const job ={
-        position:positionInput,
-        languages:languagesInput,
-        location:locationInput
+      const jobsObj={
+      company: "Photosnap",
+      logo: "./images/photosnap.svg",
+      new: true,
+      featured: true,
+      position:positionInput,
+      role: "Frontend",
+      level: "Senior",
+      postedAt: "Now",
+      contract: contract,
+      location:locationInput,
+      languages:languagesInput,
+      tools: []
       };
 
       //sending a post request to update the json file
@@ -103,7 +113,7 @@ jobDetails()
         headers:{
           "Content-Type":"Application/json"
         },
-       body:JSON.stringify(job)
+       body:JSON.stringify(jobsObj)
       })
       .then(resp =>resp.json())
       .then(data =>{
