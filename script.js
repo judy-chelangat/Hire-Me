@@ -74,6 +74,12 @@ function jobDetails(){
     mainContainer.innerHTML = "";
   }
 jobDetails()
+// adding an event listener to the submit button on the job-post-form
+const submitButton =document.getElementById("postJobButton") 
+submitButton.addEventListener("click",handleSubmit)
+
+// function to handle the submit event
+
 }
 
 
