@@ -97,7 +97,13 @@ jobDetails()
       const positionInput = document.getElementById("positionInput").value;
       const languagesInput = document.getElementById("languagesInput").value;
       const locationInput = document.getElementById("locationInput").value;
-
+      
+      //object with the retrieved details
+      const details ={
+        position:positionInput,
+        languages:languagesInput,
+        location:locationInput
+      };
     }
 
 
