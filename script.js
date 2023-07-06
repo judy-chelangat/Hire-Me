@@ -13,7 +13,7 @@ function jobDetails(){
 
         //event listener on the form
         const jobSearchForm = document.getElementById("jobSearchForm");
-        jobSearchForm.addEventListener("submit", function (e , job) {
+        jobSearchForm.addEventListener("submit", function (e ,) {
           e.preventDefault();
 
           // Retrieve the search term entered by the user
@@ -21,7 +21,7 @@ function jobDetails(){
           const searchTerm = roleInput.value.toLowerCase().trim();
 
           //if statement to check whether the searchterm is empty
-          if(searchTerm === ""){
+          if(searchTerm === " "){
             displayJobs(job)
           }
           
@@ -48,7 +48,7 @@ function jobDetails(){
         const mainContainer =document.getElementById("jobList")
        const details = document.createElement("div")
        details.className = "job-details"; // add class name for styling
-// dom manipulation to show the job details
+        // dom manipulation to show the job details
           details.innerHTML=`
           <div class="left-side">
                 <div class="img"><img src="${list.logo}"></div>
