@@ -103,8 +103,8 @@ jobDetails()
       postedAt: "Now",
       contract: contract,
       location:locationInput,
-      languages:languagesInput,
-      tools: []
+      languages:[languagesInput],
+      tools:[]
       };
       postJob(jobsObj)
     }
