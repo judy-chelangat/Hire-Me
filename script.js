@@ -13,7 +13,9 @@ function jobDetails(){
 
         //event listener on the form
         const jobSearchForm = document.getElementById("jobSearchForm");
-        jobSearchForm.addEventListener("submit", function (e ,) {
+        jobSearchForm.addEventListener("submit", jobHandle)
+        //function to handle the job searched for 
+        function jobHandle(e ) {
           e.preventDefault();
 
           // Retrieve the search term entered by the user
@@ -38,11 +40,11 @@ function jobDetails(){
           filteredJobs.forEach(job =>{
             displayJobs(job)
           });
-        });
+        };
       })
-         .catch(error =>{
-            console.log("error")
-         })
+        //  .catch(error =>{
+        //     console.log("error")
+        //  })
 
         function displayJobs(list){
         const mainContainer =document.getElementById("jobList")
@@ -118,7 +120,7 @@ jobDetails()
         console.log(data)
       })
       .catch(error=>{
-        console.log("error fetching data")
+        console.log("error posting data")
       })
     }
 
