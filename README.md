@@ -22,6 +22,8 @@ HTML <br>
 CSS <br>
 JavaScript <br>
 
+# JSON Server 
+link to my db.json data <https://judy-chelangat.github.io/fake-server-json/> <br>
 # Getting Started
 To get a copy of the project up and running on your local machine, follow these steps: <br>
 
