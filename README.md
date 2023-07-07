@@ -75,4 +75,4 @@ The Hire Me project is licensed under the MIT License. Feel free to modify and u
 
 # Get In Touch
 Email - <judieysiggy@gmail.com>
-twitter -<Judieysiggy>
+twitter - <@Judieysiggy>
