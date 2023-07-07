@@ -1,5 +1,13 @@
 # Hire Me
 Welcome to Hire Me! This project aims to provide a platform for both job seekers and recruiters in the tech industry. Job seekers can view tech jobs from around the world, while recruiters can post job listings. The goal is to connect talented individuals with exciting job opportunities.
+# AUTHOR
+Judy Chelangat (Software Engineer)
+
+# home page 
+![My Image](./images/Screenshot%20from%202023-07-08%2000-27-49.png)
+
+# about page
+![My Image](./images/Screenshot%20from%202023-07-08%2000-28-46.png)
 
 # Table of Contents
 Features <br>
@@ -24,6 +32,7 @@ JavaScript <br>
 
 # JSON Server 
 link to my db.json data <https://github.com/judy-chelangat/fake-server-json> <br>
+
 # Getting Started
 To get a copy of the project up and running on your local machine, follow these steps: <br>
 
