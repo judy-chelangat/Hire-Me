@@ -12,6 +12,7 @@
       "postedAt": "1d ago",
       "contract": "Full Time",
       "location": "USA Only",
+      "link":"https://boards.greenhouse.io/ingenious/jobs/4002233005?utm_source=trulyremote.co",
       "languages": [
         "JavaScript",
         "React"
@@ -30,6 +31,7 @@
       "postedAt": "1d ago",
       "contract": "Part Time",
       "location": "Remote",
+      "link":"https://jobs.lever.co/percona/272d08cf-c22d-478d-9532-53a3a15e86ab?utm_source=trulyremote.co",
       "languages": [
         "Python"
       ],
@@ -49,6 +51,7 @@
       "postedAt": "2d ago",
       "contract": "Part Time",
       "location": "USA Only",
+      "link":"https://remotive.com/remote-jobs/software-dev/front-end-developer-1680495",
       "languages": [
         "JavaScript"
       ],
@@ -69,6 +72,7 @@
       "postedAt": "5d ago",
       "contract": "Contract",
       "location": "USA Only",
+      "link":"https://weworkremotely.com/remote-jobs/yoko-co-full-stack-web-developer-wordpress-more",
       "languages": [
         "CSS",
         "JavaScript"
@@ -87,6 +91,7 @@
       "postedAt": "1w ago",
       "contract": "Full Time",
       "location": "Worldwide",
+      "link":"https://weworkremotely.com/remote-jobs/10ex-dev-software-developer-elixir",
       "languages": [
         "JavaScript"
       ],
@@ -107,6 +112,7 @@
       "postedAt": "2w ago",
       "contract": "Full Time",
       "location": "UK Only",
+      "link":"https://boards.greenhouse.io/0x/jobs/4058947002?utm_source=trulyremote.co",
       "languages": [
         "Ruby"
       ],
@@ -126,6 +132,7 @@
       "postedAt": "2w ago",
       "contract": "Full Time",
       "location": "Worldwide",
+      "link":"https://www.indeed.com/q-junior-developer-jobs.html?vjk=9e76e485b48fe6d0",
       "languages": [
         "HTML",
         "JavaScript"
@@ -140,12 +147,13 @@
       "logo": "./images/insure.svg",
       "new": false,
       "featured": false,
-      "position": "Junior Frontend Developer",
-      "role": "Frontend",
+      "position": "DevOps Engineer",
+      "role": "DevOps",
       "level": "Junior",
       "postedAt": "2w ago",
       "contract": "Full Time",
       "location": "USA Only",
+      "link":"https://amazeeio.bamboohr.com/careers/87?utm_source=trulyremote.co",
       "languages": [
         "JavaScript"
       ],
@@ -166,6 +174,7 @@
       "postedAt": "3w ago",
       "contract": "Full Time",
       "location": "Worldwide",
+      "link":"https://amazeeio.bamboohr.com/careers/87?utm_source=trulyremote.co",
       "languages": [
         "JavaScript",
         "Python"
@@ -186,6 +195,7 @@
       "postedAt": "1mo ago",
       "contract": "Part Time",
       "location": "Worldwide",
+      "link":"https://www.indeed.com/q-junior-developer-jobs.html?vjk=9e76e485b48fe6d0",
       "languages": [
         "JavaScript"
       ],
@@ -206,6 +216,7 @@
       "postedAt": "2d ago",
       "contract": "Full Time",
       "location": "Remote",
+      "link":"https://www.indeed.com/q-junior-developer-jobs.html?vjk=9e76e485b48fe6d0",
       "languages": [
         "JavaScript",
         "Python"
@@ -227,6 +238,7 @@
       "postedAt": "3d ago",
       "contract": "Full Time",
       "location": "Remote",
+      "link":"https://www.indeed.com/q-junior-developer-jobs.html?vjk=9e76e485b48fe6d0",
       "languages": [
         "HTML",
         "CSS",
@@ -248,6 +260,7 @@
       "postedAt": "4d ago",
       "contract": "Internship",
       "location": "Worldwide",
+      "link":"https://www.indeed.com/q-junior-developer-jobs.html?vjk=9e76e485b48fe6d0",
       "languages": [
         "JavaScript",
         "Python"
@@ -269,6 +282,7 @@
       "postedAt": "5d ago",
       "contract": "Internship",
       "location": "Worldwide",
+      "link":"https://www.indeed.com/q-junior-developer-jobs.html?vjk=9e76e485b48fe6d0",
       "languages": [
         "Java",
         "C++"
@@ -289,6 +303,7 @@
       "postedAt": "1w ago",
       "contract": "Internship",
       "location": "USA Only",
+      "link":"https://www.indeed.com/q-junior-developer-jobs.html?vjk=9e76e485b48fe6d0",
       "languages": [
         "JavaScript",
         "Python"
@@ -310,6 +325,7 @@
       "postedAt": "2w ago",
       "contract": "Full Time",
       "location": "USA Only",
+      "link":"https://www.glassdoor.com/Job/junior-backend-developer-jobs-SRCH_KO0,24.htm",
       "languages": [
         "Java"
       ],
@@ -329,6 +345,7 @@
       "postedAt": "3w ago",
       "contract": "Full Time",
       "location": "UK Only",
+      "link":"https://www.glassdoor.com/Job/junior-backend-developer-jobs-SRCH_KO0,24.htm",
       "languages": [
         "JavaScript",
         "Ruby"
@@ -350,6 +367,7 @@
       "postedAt": "1mo ago",
       "contract": "Full Time",
       "location": "Remote",
+      "link":"https://boards.greenhouse.io/citizengo/jobs/4897397004?utm_source=trulyremote.co",
       "languages": [
         "Python",
         "SQL"
@@ -372,6 +390,7 @@
       "contract": "Full Time",
       "location": "USA Only",
       "languages": [],
+      "link":"https://boards.greenhouse.io/mural/jobs/5659059003?utm_source=trulyremote.co",
       "tools": []
     },
     {
@@ -386,6 +405,7 @@
       "postedAt": "1mo ago",
       "contract": "Full Time",
       "location": "Worldwide",
+      "link":"https://boards.greenhouse.io/mural/jobs/5659059003?utm_source=trulyremote.co",
       "languages": [],
       "tools": []
     },
@@ -399,7 +419,8 @@
       "level": "Senior",
       "postedAt": "Now",
       "contract": "fulltime",
-      "location": "Kenya",
+      "location": "Worldwide",
+      "link":"https://boards.greenhouse.io/ingenious/jobs/4002233005?utm_source=trulyremote.co",
       "languages": [
         "react,html,css"
       ],
@@ -417,6 +438,7 @@
       "postedAt": "Now",
       "contract": "Part time",
       "location": "Germany",
+      "link":"https://boards.greenhouse.io/ingenious/jobs/4002233005?utm_source=trulyremote.co",
       "languages": [
         "Javascript,React"
       ],
