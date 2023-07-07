@@ -405,8 +405,23 @@
       ],
       "tools": [],
       "id": 21
+    },
+    {
+      "company": "Photosnap",
+      "logo": "./images/photosnap.svg",
+      "new": true,
+      "featured": true,
+      "position": "junior frontend",
+      "role": "Frontend",
+      "level": "Senior",
+      "postedAt": "Now",
+      "contract": "Part time",
+      "location": "Germany",
+      "languages": [
+        "Javascript,React"
+      ],
+      "tools": [],
+      "id": 22
     }
-   
-   
   ]
 }
