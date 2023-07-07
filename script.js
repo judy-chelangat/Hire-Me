@@ -63,7 +63,7 @@ function jobDetails(){
           
           <div class="right-side">
             <p>${list.languages}</p>
-            <a href="">Apply Now</a>
+            <a href="${list.link}">Apply Now</a>
         </div>
           `
           mainContainer.appendChild(details)
@@ -104,7 +104,7 @@ jobDetails()
       const languagesInput = document.getElementById("languagesInput").value;
       const locationInput = document.getElementById("locationInput").value;
       const contract = document.getElementById("availabilityInput").value;
-       
+       const link =document.getElementById("linkInput").value
       //object with the retrieved details
       const jobsObj={
       company: "Photosnap",
@@ -118,6 +118,7 @@ jobDetails()
       contract: contract,
       location:locationInput,
       languages:[languagesInput],
+      link:link,
       tools:[]
       };
       postJob(jobsObj)
@@ -126,7 +127,7 @@ jobDetails()
       
     }
 
-    //function to send a post request 
+    //function to send a POST request 
       function postJob(jobsObj)
       {
       fetch("http://localhost:3000/jobs",{
