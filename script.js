@@ -76,19 +76,19 @@ function jobDetails(){
     mainContainer.innerHTML = "";
   }
 jobDetails()
-      const jobButton = document.getElementById("jobButton");
-      const jobPopupForm = document.getElementById("jobPopupForm");
-      const overlay = document.getElementById("overlay");
+      // const jobButton = document.getElementById("jobButton");
+      // const jobPopupForm = document.getElementById("jobPopupForm");
+      // const overlay = document.getElementById("overlay");
 
-      jobButton.addEventListener("click", function() {
-          jobPopupForm.style.display = "block";
-          overlay.style.display = "block";
-      });
+      // jobButton.addEventListener("click", function() {
+      //     jobPopupForm.style.display = "block";
+      //     overlay.style.display = "block";
+      // });
 
-      overlay.addEventListener("click", function() {
-          jobPopupForm.style.display = "none";
-          overlay.style.display = "none";
-      });
+      // overlay.addEventListener("click", function() {
+      //     jobPopupForm.style.display = "none";
+      //     overlay.style.display = "none";
+      // });
 
 
     //   //adding an event listener to the form submission
