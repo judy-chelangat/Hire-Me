@@ -3,7 +3,7 @@
 const initialize = ()=>{  //function to hold the entire code 
 // fetching the job details from server
 function jobDetails(){
-    fetch("http://localhost:3000/jobs")
+    fetch("https://hireme-9kv4.onrender.com/jobs")
     .then(resp => resp.json())
     .then(data =>{
                 // console.log(data)
@@ -130,7 +130,7 @@ jobDetails()
     //function to send a POST request 
       function postJob(jobsObj)
       {
-      fetch("http://localhost:3000/jobs",{
+      fetch("https://hireme-9kv4.onrender.com/jobs",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
