@@ -71,6 +71,7 @@ function jobDetails(){
           const removeJob= details.querySelector(".remove-job");
           removeJob.addEventListener("click",function(){
             details.remove()
+            // deleteJobDetails(list.id)
          })
           mainContainer.appendChild(details)
     }
@@ -151,7 +152,18 @@ jobDetails()
         console.log("error posting data")
       })
       }
-
+      
+      //function to delete a job posting
+      // function deleteJobDetails(id){
+      //   fetch(`https://hireme-9kv4.onrender.com/jobs/${id}`,{
+      //     method:"DELETE",
+      //     headers:{
+      //       "Content-Type":"application/json"
+      //     }
+      //   })
+      //   .then(resp => resp.json())
+      //   .then(data => console.log(data))
+      // }
 
 
     }
