@@ -162,6 +162,7 @@ a:hover {
     padding: 10px;
     border: 1px solid #ccc;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .left-side {
@@ -188,3 +189,19 @@ a:hover {
 .right-side p {
     margin: 5px 0;
 }
+/* x button styling */
+.remove-job {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: #1d1a1a;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .remove-job:hover {
+    color: #23527c;
+  }
