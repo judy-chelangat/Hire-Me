@@ -67,6 +67,11 @@ function jobDetails(){
             <button class="remove-job">X</button> <!-- Add the X button -->
         </div>
           `
+          // adding an event listener on the x button
+          const removeJob= details.querySelector(".remove-job");
+          removeJob.addEventListener("click",function(){
+            details.remove()
+         })
           mainContainer.appendChild(details)
     }
     
