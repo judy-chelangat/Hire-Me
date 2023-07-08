@@ -64,6 +64,7 @@ function jobDetails(){
           <div class="right-side">
             <p>${list.languages}</p>
             <a href="${list.link}">Apply Now</a>
+            <button class="remove-job">X</button> <!-- Add the X button -->
         </div>
           `
           mainContainer.appendChild(details)
